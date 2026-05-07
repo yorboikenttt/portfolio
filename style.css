@@ -1,0 +1,166 @@
+:root {
+    --anime-blue: #0099ff;
+    --anime-pink: #ff0055;
+    --anime-yellow: #ffee00;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+    background-color: #0d0d0d;
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.anime-nav {
+    background: #000;
+    border-bottom: 4px solid #fff;
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-family: 'Bangers', cursive;
+    font-size: 2rem;
+    color: var(--anime-yellow) !important;
+}
+
+.nav-link-custom {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero-section {
+    padding: 150px 0 100px;
+    background: linear-gradient(to bottom, #1a1a1a, #0d0d0d);
+}
+
+.status-badge {
+    background: var(--anime-pink);
+    padding: 5px 15px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+    transform: skew(-15deg);
+}
+
+.main-title {
+    font-family: 'Bangers', cursive;
+    font-size: 5.5rem;
+    line-height: 0.9;
+}
+
+.highlight {
+    color: var(--anime-blue);
+    text-shadow: 4px 4px 0px #fff;
+}
+
+.hero-art {
+    border: 8px solid #fff;
+    box-shadow: 15px 15px 0px var(--anime-pink);
+    transform: rotate(3deg);
+}
+
+/* About Section */
+.about-panel {
+    background: #fff;
+    border: 6px solid #000;
+    padding: 40px;
+    box-shadow: 15px 15px 0px var(--anime-blue);
+}
+
+.about-text { color: #333; font-size: 1.1rem; }
+
+.manga-focus {
+    border: 4px dashed #000;
+    padding: 20px;
+    background: var(--anime-yellow);
+    transform: rotate(2deg);
+}
+
+/* Projects Section */
+.panel-heading {
+    font-family: 'Bangers', cursive;
+    font-size: 3rem;
+    border-left: 10px solid var(--anime-yellow);
+    padding-left: 20px;
+}
+
+.manga-card {
+    background: #fff;
+    color: #000;
+    border: 5px solid #000;
+    position: relative;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 5px solid #000;
+}
+
+.card-content { padding: 20px; flex-grow: 1; }
+
+.card-blue { border-bottom: 15px solid var(--anime-blue); }
+.card-pink { border-bottom: 15px solid var(--anime-pink); }
+.card-yellow { border-bottom: 15px solid var(--anime-yellow); }
+
+.manga-card:hover {
+    transform: translate(-8px, -8px);
+    box-shadow: 12px 12px 0px var(--anime-yellow);
+}
+
+/* Abilities Section */
+.manga-font { font-family: 'Bangers', cursive; color: var(--anime-yellow); }
+
+.stat-bar {
+    width: 100%;
+    height: 15px;
+    background: #333;
+    border: 3px solid #fff;
+}
+
+.stat-fill {
+    height: 100%;
+    background: var(--anime-blue);
+}
+
+/* Contact Section */
+.contact-panel {
+    background: #fff;
+    border: 8px solid #000;
+    padding: 50px;
+    transform: rotate(-1deg);
+    box-shadow: 20px 20px 0px var(--anime-pink);
+}
+
+.manga-title { font-family: 'Bangers', cursive; font-size: 3.5rem; color: #000; }
+
+.contact-links { display: flex; gap: 15px; }
+
+.contact-btn {
+    padding: 15px;
+    font-family: 'Bangers', cursive;
+    text-decoration: none;
+    color: #fff;
+    background: #000;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.btn-blue { background: var(--anime-blue); }
+.btn-pink { background: var(--anime-pink); }
+
+.footer {
+    background: #000;
+    border-top: 5px solid #fff;
+    padding: 40px 0;
+    font-family: 'Bangers', cursive;
+}
