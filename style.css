@@ -146,6 +146,10 @@ body {
 .contact-links { display: flex; gap: 15px; }
 
 .contact-btn {
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+    display: inline-block;
     padding: 15px;
     font-family: 'Bangers', cursive;
     text-decoration: none;
